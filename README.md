@@ -1,7 +1,7 @@
 linec
 =====
 
-This perl script counts lines in source files, excluding comments and empty lines. It supports all source files with comments like
+This perl script counts lines in source files, excluding comments and empty lines. It supports all source files with comments of the following syntax:
 
 ```
 /* ... */
@@ -9,6 +9,6 @@ This perl script counts lines in source files, excluding comments and empty line
 # ...
 ```
 
-You can set up file extensions which the script will be processing. Under Windows the script work results look as follows:
+You can specify which file extensions the script must process. On Windows the script output looks like this:
 
-{image}
+![Screenshot](https://github.com/0xc0dec/linec/raw/master/linec.png "Screenshot")
