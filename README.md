@@ -1,7 +1,7 @@
 linec
 =====
 
-This perl script counts lines in source files, excluding comments and empty lines. It supports all source files with comments of the following syntax:
+This Perl script counts lines in source files, excluding comments and empty lines. It supports all source files with comments of the following syntax:
 
 ```
 /* ... */
